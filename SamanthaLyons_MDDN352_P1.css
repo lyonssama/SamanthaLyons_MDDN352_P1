@@ -1,0 +1,136 @@
+#wrapperHeader{
+    position: relative;
+}
+
+
+h1 {
+	padding-top: 40px;
+	float: center;
+	color: black;
+	display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(#cdf5fe,  #048fae);
+    background-image: url("images/blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+} 
+
+.diverimg {
+	width: 100%;
+	padding-left: 10%;
+}
+
+.wireframeimg {
+	height: 3000px;
+	width: 5000px;
+}
+
+img {
+	width: 200px;
+	height: 350px;
+}
+
+
+nav {
+	padding-top: 9%;
+	background-color: black;
+	float:center;
+}
+
+ul {
+	list-style-type: none;
+	margin: -85;
+	float: center;
+	padding-left: 30%;
+	padding-bottom: 8%;
+
+}
+
+li a {
+	float: left;
+	padding: 10px;
+	padding-left: 100px;
+	text-decoration: none;
+	color:white;
+}
+
+p {
+	color: black;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: "Avantgarde, sans-serif";
+	line-height: 40px;
+}
+
+nav select {
+	display: none;
+}
+
+@media print {
+	body { font-size: 10pt }
+}
+
+@media screen and (max-width: 800px) {
+	p {
+		font-size: 10px;
+
+	}
+	nav ul {
+		display: none;
+	}
+	nav select {
+		display: inline-block;
+	}
+
+	.diverimg {
+		width: 100px;
+		height: 100px;
+	}
+
+
+	img {
+		width: 90px;
+		height: 150px;
+	}
+
+
+
+
+}
+
+.info{
+
+}
+
+.div1 {
+    float: center;
+    width: 100%;
+    height: auto;
+    padding-left:20%;
+    padding-right:20%;
+
+
+}
+
+.div2 {
+    float: center;
+    width: auto;
+    height: auto;
+    padding-left:30%;
+    padding-right:20%;
+
+
+}
+
+.div3 {
+	width: 100%;
+}
