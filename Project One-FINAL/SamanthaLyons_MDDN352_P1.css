@@ -1,0 +1,333 @@
+#wrapperHeader{
+    position: relative;
+}
+
+#header{
+    background-image: url("images/header.jpg");
+    width: 100%;
+    height: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0 0 40%;
+    background-repeat: no-repeat;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    height: auto;
+    width: auto;
+} 
+
+nav {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: black;
+}
+
+nav li {
+	display: inline;
+
+}
+
+nav a {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+}
+
+
+h1 {
+	color: black;
+	display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+
+.container1 {
+    width: 100%;
+    height: auto;
+}
+
+	.dive {
+	float: left;
+	padding-left: 20%;
+	padding-top: 2%;
+	width: 25%;
+	height: auto;
+	}
+
+	.summary {
+	float: right;
+	padding-top:3%;
+	padding-left: 50%;
+	padding-right: 7%;
+	position: absolute;
+	}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+}
+
+	img {
+   	max-width: 100%;
+    max-height: 100%;
+	}
+
+		.forecast {
+		width: 250px;
+		height: 500px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.tides {
+		width: 250px;
+		height: 500px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.marine {
+		width: 305px;
+		height: 500px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.research {
+		float: center;
+		padding-right: 20%;
+		padding-left: 20%;
+		}
+
+.container3 {
+	width: 100%;
+    height: auto;
+}
+
+	.diver {
+	float: left;
+	width: 50%;
+	height: auto;
+	padding-left: 5%;
+	}
+
+	.feedback {
+	float: right;
+	padding-top:5%;
+	padding-left: 55%;
+	padding-right: 7%;
+	position: absolute;
+	}
+
+.container4 {
+	width: 100%;
+    height: auto;
+    padding-top: 30%;
+}
+
+	.wireframe {
+	width: 60%;
+	height: auto;
+	}
+
+p {
+	color: black;
+	font-family: "Avantgarde, sans-serif";
+	line-height: 40px;
+}
+
+nav select {
+	display: none;
+}
+
+
+@media print {
+	body { font-size: 10pt }
+}
+
+@media screen and (max-width: 1500px) {  /*Laptop Size*/
+	nav a {
+		font-size: 12px;		
+	}
+
+	p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 1200px) {  /*Laptop Size*/
+	nav a {
+		font-size: 12px;		
+	}
+
+	p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.forecast {
+		width: 250px;
+		height: 400px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.tides {
+		width: 250px;
+		height: 400px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.marine {
+		width: 250px;
+		height: 400px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.diver {
+		padding-left: 0%;
+		}
+
+		.feedback {
+		padding-left: 45%;
+		padding-right: 2%;
+		}
+
+	
+
+}
+
+
+
+@media screen and (max-width: 900px) { /*Tablet Size*/
+
+	nav a {
+		font-size: 10px;
+		padding: 7px;
+	}
+
+	h1 {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 20%;
+
+}
+
+	p {
+		font-size: 8px;
+		line-height: 7px;
+	}
+
+	.dive {
+	padding-left: 1%;
+	}
+
+	.summary {
+	padding-left: 37%;
+	}
+
+	.forecast {
+		width: 150px;
+		height: 300px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.tides {
+		width: 150px;
+		height: 300px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.marine {
+		width: 150px;
+		height: 300px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.diver {
+		padding-left: 3%;
+		}
+
+		.feedback {
+		padding-left: 55%;
+		padding-right: 7%;
+		}
+
+
+
+
+
+	@media screen and (max-width: 300px) {  /*Mobile Size*/
+	p {
+		font-size: 5px;
+		line-height: 5px;
+
+	}
+	nav ul {
+		display: none;
+	}
+	nav select {
+		display: inline-block;
+	}
+
+	.forecast {
+		width: 50px;
+		height: 100px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.tides {
+		width: 50px;
+		height: 100px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.marine {
+		width: 50px;
+		height: 100px;
+		padding-top: 3%;
+		display: inline-block;
+		}
+
+		.diver {
+		padding-left: 0%;
+		}
+
+		.feedback {
+		padding-left: 43%;
+		padding-right: 1%;
+		}
+
+}
+
